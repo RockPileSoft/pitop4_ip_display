@@ -58,5 +58,5 @@ while True:
     down_button.when_pressed = get_Host_name_IP
     up_button.when_pressed = get_cpu_temp
     sleep(10)
-    oled.display_multiline_text("", font_size=14)
+    oled.display_multiline_text("")
     
